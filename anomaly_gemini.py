@@ -5,7 +5,7 @@ import google.generativeai as genai
 import re
 
 # Configure Gemini API Key
-GEMINI_API_KEY = "AIzaSyAVd0JIXEGcOiFx_DmCoHMfHfaD2n0LoGU"
+GEMINI_API_KEY = "xx"
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Load CSV file
@@ -21,7 +21,7 @@ df["Anomaly Reason"] = ""
 df["Remediation"] = ""  # New column for AI-generated remediation
 
 # Log file for Gemini responses
-LOG_FILE = "gemini_log.txt"
+LOG_FILE = "gemini_log2.txt"
 
 # Function to log Gemini responses
 def log_response(prompt, response):
