@@ -1,0 +1,38 @@
+[
+    {
+      "column_name": "LoanAmount",
+      "description": "Loan amount must be between $1,000 and $1,000,000.",
+      "rule": "LoanAmount should be a numeric value between 1000 and 1000000."
+    },
+    {
+      "column_name": "InterestRate",
+      "description": "Interest rate must be between 0.01% and 25%.",
+      "rule": "InterestRate should be a numeric value between 0.01 and 25."
+    },
+    {
+      "column_name": "LoanStatus",
+      "description": "Loan status must be one of the predefined categories: Approved, Rejected, Pending, or Closed.",
+      "rule": "LoanStatus should be one of ['Approved', 'Rejected', 'Pending', 'Closed']."
+    },
+    {
+      "column_name": "BorrowerAge",
+      "description": "Borrower age must be between 18 and 75 years.",
+      "rule": "BorrowerAge should be a numeric value between 18 and 75."
+    },
+    {
+      "column_name": "RepaymentDate",
+      "description": "Repayment date must be in YYYY-MM-DD format.",
+      "rule": "RepaymentDate should be a valid date in YYYY-MM-DD format."
+    },
+    {
+      "column_name": "CountryCode",
+      "description": "Country code must be a valid ISO 3166-1 alpha-2 code (US, UK, IN, CA, AU).",
+      "rule": "CountryCode should be one of ['US', 'UK', 'IN', 'CA', 'AU']."
+    },
+    {
+      "column_name": "OutstandingBalance",
+      "description": "Outstanding balance must be greater than or equal to zero.",
+      "rule": "OutstandingBalance should be a numeric value greater than or equal to 0."
+    }
+  ]
+  
